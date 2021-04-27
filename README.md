@@ -1,4 +1,4 @@
-# web-worker
+# timer-app
 
 ## Description
 A simple vuejs application that allows you to run multiple timers at the same time. The application solves the problem of calculating the time when the current tab is not active. Because setInterval and setTimeout methods suspened when tab not active, also Chrome have limitation 1000ms for background threads. It uses RXJS and timestamp for resolve this issue.
